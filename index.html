@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Donation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Food Surplus Donation</h1>
+        <div class="donation-form">
+            <h2>Donate Surplus Food</h2>
+            <input type="text" id="restaurantName" placeholder="Restaurant Name" required>
+            <input type="text" id="foodDescription" placeholder="Food Description" required>
+            <input type="number" id="foodQuantity" placeholder="Quantity (Meals)" required>
+            <button id="donateButton">Donate</button>
+        </div>
+
+        <div class="donation-list">
+            <h2>Available Donations</h2>
+            <ul id="donationList"></ul>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
